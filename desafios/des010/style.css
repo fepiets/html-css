@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(rgba(105, 233, 169, 0.774), rgb(11, 146, 90));
+
+    padding: 10px 15px 20px 25px;
+    margin: auto;
+    /*width: 100%*/
+
+}
+
+header > h1{
+    text-align: center; /*Colocar em ordem*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+header > h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+div{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    color:  rgba(255, 255, 255, 0.836);
+    padding: 10px;
+}
+
+div:hover{
+    text-decoration: underline;
+}
+
+/*PRIMEIRA CAIXA ASSIMA:*/
+
+section{
+    background-color: white;
+    padding: 8px;
+    
+   
+
+}
+
+body{
+    background-color: rgb(25, 231, 204);
+}
+
+footer{
+    background-color: green;
+    color: white;
+}
+
+.negrito{
+    font-weight: bolder;
+}
+
+.cor{
+    color: green;
+    text-decoration: none;
+}
+
+main{
+    padding: 50px;
+    margin: 0px;
+    text-align: justify;
+            
+}
+
+p{
+    text-indent: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bloco{
+    background-color: rgba(75, 196, 233, 0.322);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.bloco_titulo{
+    background-color: green;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    height: 30px;
+    
+}
+
+.imagem_bugdroid{
+    text-align: center;
+}
+
+.marca_texto{
+    background-image: linear-gradient(to left, white, rgba(11, 185, 11, 0.315));
+}
+
+
